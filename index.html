@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inner Circle Indy</title>
+    <style>
+      body, html, #site-container {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+
+      .hero-header {
+        background-image: url("pasta-shapes.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        flex-direction: column;
+        display: flex;
+      }
+
+      .hero-header__branding {
+          position: absolute;
+          right: 2em;
+          top: 3em;
+      }
+
+      .hero-header__topbar {
+        background: rgba(255,255,255,0.9);
+        justify-content: space-between;
+        position: absolute;
+        width: 100%;
+        top: 5em;
+      }
+
+      .hero-header__tagline {
+        color: #eee;
+        font-size: 2em;
+        line-height: 1.2em;
+        padding: 5em;
+        padding-bottom: 1em;
+        max-width: 17em;
+      }
+
+      .topbar {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .topbar--nav {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .nav-section__link {
+        margin: 1em;
+        font-weight: lighter;
+        font-size: 2em;
+        color: #002868 ;
+        text-decoration: none;
+      }
+
+      .main-header {
+        color: #002868;
+        font-size: 3em;
+        line-height: 0.8em;
+        margin-bottom: 0.25em;
+        background: rgba(255,255,255,0.5);
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        padding-left: 0.25em;
+      }
+
+      footer {
+        padding: 0.5em;
+        border-top: solid #999 3px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background: #666;
+        color: #eee;
+      }
+      footer a {
+        color: #eee;
+      }
+
+      .main-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .main-body__section {
+        max-width:80em;
+        margin-top: 1em;
+        margin-bottom: 4em;
+        flex-basis: 80%;
+        display:flex;
+      }
+
+      .heading {
+        font-size: 5em;
+        color: #002868 ;
+        font-weight: lighter;
+        background-color: #fff;
+        line-height: 0.8em;
+        max-width: 3em;
+        text-align: right;
+        padding: 0.2em;
+      }
+      .section__header {
+        display: flex;
+        flex-direction: row;
+        margin-right: 3em;
+        margin-left: 3em;
+      }
+      .section__text {
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="site-container">
+      <div class="hero-header">
+
+        <div class="hero-header__topbar topbar">
+          <div class="topbar--nav nav-section">
+            <a class="nav-section__link" href="#about-us">About Us</a>
+
+            <a class="nav-section__link" href="#about-us">Our Products</a>
+            <a class="nav-section__link" href="#about-us">Our Kitchen</a>
+          </div>
+        </div>
+        <div class="hero-header__branding ">
+          <img src="inner-circle-icon.png" />
+        </div>
+
+        <div class="hero-header__tagline">
+          <div class="main-header">INNER CIRCLE</div>
+          An Indianapolis kitchen specializing in local ingredients and traditional world cuisine
+        </div>
+      </div>
+      <div class="main-body">
+        <div class="main-body__section section">
+          <span class="heading">About Us</span>
+          <div class="section__text">
+            <p>
+            Many of the foods that we have become accustomed to originate with cuisines from around the world. Often the original was born from necessity, availability, tradition, or cultural knowledge and beliefs. We want to bring these things back into our lives, and appreciate the meals that we have come to love by gaining more understanding of where they came from.</p>
+            <p>
+            At Inner Circle we strive to bring quality, hand-made convenience items to the local produce market, while also paying tribute to the culinary traditions that have been the cause and inspiration of modern food in all varieties. We hope to help you bring fresh ingredients of all types into your kitchen, and an extra dimension of made from scratch cooking into your meals.
+            </p>
+          </div>
+        </div>
+        <div class="main-body__section section">
+          <div class="section__text">
+            <p>
+            Many of the foods that we have become accustomed to originate with cuisines from around the world. Often the original was born from necessity, availability, tradition, or cultural knowledge and beliefs. Many of these things have become unnoticed in modern kitchens.</p>
+            <p>
+            At Inner Circle, we hope to bring quality, hand-made convenience items to the local produce market, while also paying tribute to the culinary traditions that have been the cause and inspiration for modern food in all varieties. We hope to help you bring fresh ingredients of all types into your kitchen, and an extra dimension of made from scratch cooking into your meals.
+            </p>
+          </div>
+          <span class="heading">Our Products</span>
+        </div>
+        <div class="main-body__section section">
+          <span class="heading">Our Kitchen</span>
+          <div class="section__text">
+            <p>
+            Many of the foods that we have become accustomed to originate with cuisines from around the world. Often the original was born from necessity, availability, tradition, or cultural knowledge and beliefs. Many of these things have become unnoticed in modern kitchens.</p>
+            <p>
+            At Inner Circle, we hope to bring quality, hand-made convenience items to the local produce market, while also paying tribute to the culinary traditions that have been the cause and inspiration for modern food in all varieties. We hope to help you bring fresh ingredients of all types into your kitchen, and an extra dimension of made from scratch cooking into your meals.
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <span>Copyright &copy; 2018 Inner Circle Food Group</span>
+        <span>
+          <a href="https://www.facebook.com/innerCircleIndy/" target="_blank">Facebook</a>
+          <a href="https://www.instagram.com/innercircleindy/" target="_blank">Instagram</a>
+          <a href="https://twitter.com/innerindy" target="_blank">Twitter</a>
+          <a href="https://www.youtube.com/channel/UCXOfbCTlb-6i1AQlQb0N3Cg" target="_blank">Youtube</a>
+        </span>
+      </footer>
+    </div>
+  </body>
+</html>
