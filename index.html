@@ -97,8 +97,7 @@
 
       .main-body__section {
         max-width:80em;
-        margin-top: 1em;
-        margin-bottom: 4em;
+        margin-bottom: 3em;
         flex-basis: 80%;
         display:flex;
       }
@@ -113,6 +112,15 @@
         text-align: right;
         padding: 0.2em;
       }
+
+      .heading--end {
+        align-self: flex-end;
+      }
+
+      .heading--wide {
+        max-width: 4em;
+      }
+
       .section__header {
         display: flex;
         flex-direction: row;
@@ -120,6 +128,35 @@
         margin-left: 3em;
       }
       .section__text {
+        background: #fff;
+        font-size: 1.2em;
+      }
+      .section__text--thin-right {
+        padding-right: 18em;
+      }
+      .section__text--thin-left {
+        padding-left: 14em;
+      }
+
+      .section--background-pile {
+        background-image: url("fettuchini-pile.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        flex-direction: column;
+        display: flex;
+        padding-top:8em;
+      }
+      .section--background-roll {
+        background-image: url("fettuchini-roll.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        flex-direction: column;
+        display: flex;
+        padding-top:8em;
       }
     </style>
   </head>
@@ -132,8 +169,8 @@
           <div class="topbar--nav nav-section">
             <a class="nav-section__link" href="#about-us">About Us</a>
 
-            <a class="nav-section__link" href="#about-us">Our Products</a>
-            <a class="nav-section__link" href="#about-us">Our Kitchen</a>
+            <a class="nav-section__link" href="#our-products">Our Products</a>
+            <a class="nav-section__link" href="#our-kitchen">Our Kitchen</a>
           </div>
         </div>
         <div class="hero-header__branding ">
@@ -146,33 +183,36 @@
         </div>
       </div>
       <div class="main-body">
+        <a name="about-us" />
         <div class="main-body__section section">
           <span class="heading">About Us</span>
           <div class="section__text">
             <p>
-            Many of the foods that we have become accustomed to originate with cuisines from around the world. Often the original was born from necessity, availability, tradition, or cultural knowledge and beliefs. We want to bring these things back into our lives, and appreciate the meals that we have come to love by gaining more understanding of where they came from.</p>
+            Many of the foods that we take for granted owe their origins to cuisines from around the world. Often the original was born from necessity, availability, tradition, or cultural knowledge and beliefs. We want to bring these things back into our lives, and appreciate the meals that we have come to love by gaining more understanding of where they came from.</p>
             <p>
             At Inner Circle we strive to bring quality, hand-made convenience items to the local produce market, while also paying tribute to the culinary traditions that have been the cause and inspiration of modern food in all varieties. We hope to help you bring fresh ingredients of all types into your kitchen, and an extra dimension of made from scratch cooking into your meals.
             </p>
           </div>
         </div>
-        <div class="main-body__section section">
-          <div class="section__text">
+        <a name="our-products" />
+        <div class="main-body__section section section--background-pile">
+          <span class="heading heading--wide heading--end">Our Products</span>
+          <div class="section__text section__text--thin-right">
             <p>
-            Many of the foods that we have become accustomed to originate with cuisines from around the world. Often the original was born from necessity, availability, tradition, or cultural knowledge and beliefs. Many of these things have become unnoticed in modern kitchens.</p>
+            Pasta is our first foray into the Indianapolis food scene. We are excited to offer hand-made pasta noodles, sheets, and shapes. It's as close to fresh pasta as you can get without making it, and each pack comes with a traditional recipe to try including lasagna, fettuchini alfredo, carbanara, chicken noodle soup and more.
             <p>
-            At Inner Circle, we hope to bring quality, hand-made convenience items to the local produce market, while also paying tribute to the culinary traditions that have been the cause and inspiration for modern food in all varieties. We hope to help you bring fresh ingredients of all types into your kitchen, and an extra dimension of made from scratch cooking into your meals.
+            Are you an experienced chef? Then enjoy the taste of homemade pasta with the convenience of pre-packaged noodles. Are you just learning to operate in your kitchen, or simply trying to prove you can make a meal? Explore the accessibilty of these traditional dishes and more.
             </p>
           </div>
-          <span class="heading">Our Products</span>
         </div>
-        <div class="main-body__section section">
+        <a name="our-kitchen" />
+        <div class="main-body__section section section--background-roll">
           <span class="heading">Our Kitchen</span>
-          <div class="section__text">
+          <div class="section__text section__text--thin-left">
             <p>
-            Many of the foods that we have become accustomed to originate with cuisines from around the world. Often the original was born from necessity, availability, tradition, or cultural knowledge and beliefs. Many of these things have become unnoticed in modern kitchens.</p>
+            Our kitchen is humble but our ambitions are great. In time we hope to grow to a size that allows you to come visit us, where we can exchange information in person and help to guide those who are interested in their journey to confidence in the kitchen.
             <p>
-            At Inner Circle, we hope to bring quality, hand-made convenience items to the local produce market, while also paying tribute to the culinary traditions that have been the cause and inspiration for modern food in all varieties. We hope to help you bring fresh ingredients of all types into your kitchen, and an extra dimension of made from scratch cooking into your meals.
+            In the meantime, we are excited to work with what we have to bring you some of the finest quality hand-made goods that the local area has to offer. Stay tuned to our social media accounts for more information on our upcoming products and offerings.
             </p>
           </div>
         </div>
